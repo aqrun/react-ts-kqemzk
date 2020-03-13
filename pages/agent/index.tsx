@@ -28,7 +28,7 @@ const Agent = (props:IProps) => {
     //const pagerRef = useRef(pager)
     //pagerRef.current = pager
     //@ts-ignore
-    let listSize = props.table_list.size
+    let listSize = props.tableList.length
     ///
     useWindowScrollBottom(bindScrollDown)
     /* const store = useStore()

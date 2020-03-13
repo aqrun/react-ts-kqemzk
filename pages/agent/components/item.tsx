@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { generateIcon } from '../../../icons'
 import { Resources } from './resources'
-import images from '../../../images'
+//import images from '../../../images'
 
 import { IAgent } from '../../../reducers'
 
