@@ -28,16 +28,12 @@ export const Item = (props: IProps) => {
             <span className="tx">Deny</span>
         </button>)
     }
-    let img = '';
-    if(images.hasOwnProperty(data.icon)){
-        img = images[data.icon]
-    }
     return (
         <div className={`li i${data.id}`}>
             <div className="in clearfix">
                 <div className="system">
                     <div className="imgw">
-                        <img src={img} alt=""/>
+                        <img src={data.icon} alt=""/>
                     </div>
                 </div>
                 <div className="right">
